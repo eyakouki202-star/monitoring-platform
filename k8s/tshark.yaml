@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tshark
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tshark
+  template:
+    metadata:
+      labels:
+        app: tshark
+    spec:
+      containers:
+      - name: tshark
+        image: eyakouki/monitoring-tshark:latest
+        securityContext:
+          capabilities:
+            add: ["NET_ADMIN", "NET_RAW"]
