@@ -12,3 +12,4 @@ Plateforme de surveillance reseau deployee automatiquement.
 - [x] Phase 6 : Jenkinsfile
 - [ ] Phase 7 : test complet
 - [ ] Phase8 : documentation
+Test CI/CD
