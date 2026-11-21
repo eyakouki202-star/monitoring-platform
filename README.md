@@ -10,6 +10,6 @@ Plateforme de surveillance reseau deployee automatiquement.
 - [x] Phase 4 : manifests Kubernetes
 - [x] Phase 5 : configuration Jenkins
 - [x] Phase 6 : Jenkinsfile
-- [ ] Phase 7 : test complet
+- [x] Phase 7 : test complet
 - [ ] Phase8 : documentation
 Test CI/CD
