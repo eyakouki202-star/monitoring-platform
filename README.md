@@ -8,7 +8,7 @@ Plateforme de surveillance reseau deployee automatiquement.
 - [x] Phase 2 : images Docker
 - [x] Phase 3 : push Docker Hub
 - [x] Phase 4 : manifests Kubernetes
-- [ ] Phase 5 : configuration Jenkins
-- [ ] Phase 6 : Jenkinsfile
+- [x] Phase 5 : configuration Jenkins
+- [x] Phase 6 : Jenkinsfile
 - [ ] Phase 7 : test complet
 - [ ] Phase8 : documentation
